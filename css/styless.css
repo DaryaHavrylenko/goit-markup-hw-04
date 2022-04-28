@@ -205,6 +205,28 @@ width: 696px;
 .feature > .item {
   width: 270px;
 }
+.feature > .item::before {
+  display: block;
+content: '';
+margin-bottom: 30px;
+height: 120px;
+background-repeat: no-repeat;
+background-position: center;
+
+background-color: #F5F4FA;
+}
+.icon-antenna::before {
+  background-image: url(../images/icon/icon_benefits/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/icon/icon_benefits/clock.svg);
+}
+.icon-diagram::before{
+  background-image: url(../images/icon/icon_benefits/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/icon/icon_benefits/astronaut.svg);
+}
 .section-tittle {
   margin-top: 0;
   margin-bottom: 50px;
@@ -217,6 +239,7 @@ width: 696px;
   line-height: 1.17;
   text-align: center;
 }
+
 
 /* СПИСОК ПРЕИМУЩЕСТВ (СЕТКА ФЛЕКС) */
 
@@ -313,7 +336,7 @@ background-color: var(--white-color);
 
 /* СЕКЦИЯ ПОСТОЯННЫЕ КЛИЕНТЫ */
 
-.actions {
+/* .actions {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -330,7 +353,7 @@ background-color: var(--white-color);
 .clients-icon {
   padding: 16px 32px;
   fill: rgba(175, 177, 184, 1);
-}
+} */
 /* СЕКЦИЯ МЕЙН ПОРТФОЛИО */
 
 .section-portfolio {
