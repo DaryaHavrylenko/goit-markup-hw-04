@@ -56,6 +56,7 @@ nav,
   display: flex;
   align-items: center;
 }
+/* ИНТЕРАКТИВНЫЕ ИКОНКИ В ХЕДЕРЕ */
 .icon-mobile {
   width: 10px;
   height: 16px;
@@ -164,6 +165,7 @@ nav,
   padding-left: 15px;
   padding-right: 15px;
 }
+
 
 .link {
 text-decoration: none;
@@ -530,7 +532,7 @@ address {
 }
 
 
-.foot {
+.text-foot {
   margin-top: 0;
   margin-bottom: 9px;
   color: var(--white-color);
@@ -570,21 +572,14 @@ a {
   color: var(--accent-color);
 }
 
-.join {
-  color: var(--white-color);
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  
-  text-transform: uppercase;
-}
+
 .item-footer {
   width: 44px;
   height: 44px;
   padding: 12px;
   margin-right: 10px;
-color:;
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
 }
 
 .item-footer:nth-child(4) {
@@ -595,7 +590,7 @@ color:;
   display: flex;
   align-items: center;
   justify-content: center;
-
+color: #C4C4C4;
 }
 
 .icon-footer {
@@ -610,8 +605,29 @@ color:;
   border-radius: 50%;
 }
 
+.foot {
+  display: flex;
+  
+   justify-content: flex-start;
+}
 
+.list-address {
+  margin-right: 70px;
+}
+.join {
+  color: var(--white-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+margin-bottom: 20px;
+margin-top: 0;
 
+  text-transform: uppercase;
+}
+.join-icon {
+  padding-top: 12px;
+}
 /* Button */
 
 .button {
